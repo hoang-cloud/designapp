@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { H1, MediumText } from "../styles/TextStyles"
 import { themes } from "../styles/ColorStyles"
+import PurchaseButton from "../Buttons/PurchaseButton"
 function HeroSection() {
   return (
     <Wrapper>
@@ -15,6 +16,10 @@ function HeroSection() {
             Đừng bỏ qua bạn ơi, học ngay thôi bằng cách xây dựng 1 app thực tế
             với React và Swift
           </Description>
+          <PurchaseButton
+            title="Start learning"
+            subtitle="120+ hours of video"
+          />
         </TextWrapper>
       </ContentWrapper>
     </Wrapper>
